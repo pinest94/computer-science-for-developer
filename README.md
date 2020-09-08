@@ -7,7 +7,7 @@
 ## ✔ Data Structure
 
 ## ✔ Operating System
-- OS를 위한 ComputerArchitecture
+- OS를 위한 Computer Architecture
 - Process vs Thread
 - PCB와 Context Switching
 - CPU Scheduling
