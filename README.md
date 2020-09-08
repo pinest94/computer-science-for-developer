@@ -11,7 +11,7 @@
 ## ✔ Data Structure
 
 ## ✔ Operating System
-- OS를 위한 Computer Architecture
+- [OS를 위한 Computer Architecture](https://github.com/mentalK94/computer-science-for-developer/blob/master/operating%20system/Computer%20Architecture%20for%20OS.md)
 - Process vs Thread
 - PCB와 Context Switching
 - CPU Scheduling
