@@ -1,4 +1,4 @@
-# computer-science-for-developer
+# computer-science-for-developer 📙📘
 
 **Since** : 2020.09.08
 
