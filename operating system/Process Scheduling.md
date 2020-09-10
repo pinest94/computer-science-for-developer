@@ -6,7 +6,7 @@
 
 Category : C.S.
 
-![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled.png](Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled.png)
+![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled.png](Process%20Scheduling%/Untitled.png)
 
 출처: 유준, Operating System, 2018
 
