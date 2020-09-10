@@ -63,7 +63,7 @@ Category : C.S.
 
 ### Process State Transition
 
-![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%201.png](Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%201.png)
+![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%201.png](Process%20Scheduling/Untitled%201.png)
 
 출처: 유준, Operating System, 2018
 
@@ -116,20 +116,20 @@ Category : C.S.
 
 ### FCFS Scheduling
 
-![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%202.png](Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%202.png)
+![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%202.png](Process%20Scheduling/Untitled%202.png)
 
 출처: 유준, Operating System, 2018
 
 - **FIFO 큐**를 사용한 **비선점** 스케쥴링
 
-![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%203.png](Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%203.png)
+![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%203.png](Process%20Scheduling/Untitled%203.png)
 
 출처: 유준, Operating System, 2018
 
 - 평균 대기 시간(Average Waiting time) = (0 + 24 + 27) / 3 = 17
 - 평균 반환 시간(Average Turnaround time) = (24 + 27 + 30) / 3 = 27
 
-![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%204.png](Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%204.png)
+![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%204.png](Process%20Scheduling/Untitled%204.png)
 
 출처: 유준, Operating System, 2018
 
@@ -155,15 +155,15 @@ Category : C.S.
 - 선점 Scheme
     - CPU 버스트 시간이 현재 Running 중인 CPU의 잔여 CPU 버스트 시간보다 작은 새로운 프로세스가 ready queue에 오면 그 프로세스가 CPU 자원을 선점함 ➡️ **SRTF**
 
-![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%205.png](Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%205.png)
+![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%205.png](Process%20Scheduling/Untitled%205.png)
 
 출처: 유준, Operating System, 2018
 
 ## Q1. SRTF 스케쥴링 시 A.W.T 와 A.T.T. 를 구하시오
 
-![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%206.png](Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%206.png)
+![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%206.png](Process%20Scheduling/Untitled%206.png)
 
-![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%207.png](Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%207.png)
+![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%207.png](Process%20Scheduling/Untitled%207.png)
 
 출처: 유준, Operating System, 2018
 
@@ -178,7 +178,7 @@ Category : C.S.
 
 ## Round Robin (RR)
 
-![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%208.png](Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%208.png)
+![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%208.png](Process%20Scheduling/Untitled%208.png)
 
 출처: 유준, Operating System, 2018
 
@@ -216,7 +216,7 @@ Category : C.S.
 
     ### Multilevel Queue
 
-    ![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%209.png](Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%209.png)
+    ![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%209.png](Process%20Scheduling/Untitled%209.png)
 
     - Ready queue를 여러 개의 큐로 분리해서 관리한다.
     - 커널은 우선 순위가 높고, 비어있지 않은 큐의 프로세스를 우선적으로 실행한다.
@@ -225,7 +225,7 @@ Category : C.S.
 
     ### Multiple-Processor Scheduling
 
-    ![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%2010.png](Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%2010.png)
+    ![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%2010.png](Process%20Scheduling/Untitled%2010.png)
 
     출처: 유준, Operating System, 2018
 
@@ -245,7 +245,7 @@ Category : C.S.
 - **주기적**으로 이벤트가 발생하고, 그 이벤트를 **일정 시간 내에 처리**해야한다.
 - 그 일정 시간이 deadline인데, 프로세스를 이 deadline 이전에 실행 완료 시켜주는 것이 필요하다.
 
-![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%2011.png](Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%2011.png)
+![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%2011.png](Process%20Scheduling/Untitled%2011.png)
 
 출처: 유준, Operating System, 2018
 
@@ -257,6 +257,6 @@ Category : C.S.
         - 해결법 - deadline을 기준으로 CPU를 할당하자
             - ➡️ **Earliest Deadline First Scheduling(EDF)**
 
-![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%2012.png](Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%2012.png)
+![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%2012.png](Process%20Scheduling/Untitled%2012.png)
 
 출처: 유준, Operating System, 2018
