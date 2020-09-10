@@ -4,8 +4,6 @@
 
 ---
 
-Category : C.S.
-
 ![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled.png](Process%20Scheduling/Untitled.png)
 
 출처: 유준, Operating System, 2018
@@ -72,7 +70,7 @@ Category : C.S.
     1. 프로세스가 Running → Waiting 으로 상태 변화를 할 때,
     2. 프로세스가 Terminated 되었을 때
 
-### Preemptive(선점) vs Non-preemptive(비선점)
+### Preemptive(선점) vs Non-preemptive(비선점) 🎯
 
 - 선점
     - 현재 running state의 프로세스가 실행 중 인터럽트가 발생할 수 있고,
@@ -105,7 +103,7 @@ Category : C.S.
 - Waiting time (대기시간) : CPU가 서비스를 받기 위해 Ready Queue에서 얼마나 기다렸는가
 - Response time (응답시간) : Interactive system에서 중요. 클릭-답, 타이핑-답. 첫 응답이 나올 때 까지 걸리는 시간
 
-### 스케쥴링 알고리즘
+### 스케쥴링 알고리즘 🎯
 
 - Ready queue의 프로세스(스레드) 중 어떤 프로세스를 CPU에 할당할 것인지 정하는 알고리즘
     - First-Come, First-Served (FCFS) Scheduling
@@ -176,7 +174,7 @@ Category : C.S.
         - 짧은 CPU 버스트 시간을 가진 프로세스가 CPU를 계속 잡을 수 있기 때문.
         - 실행시간을 예측하기 어렵다 ➡️ 사실 CPU 버스트 시간을 CPU가 정확히 알 수 있는 방법은 없다.
 
-## Round Robin (RR)
+## Round Robin (RR) 🎯
 
 ![Process%20Scheduling%2091da0e9eefd6446c9493ce53b6465ed7/Untitled%208.png](Process%20Scheduling/Untitled%208.png)
 
